@@ -1,9 +1,17 @@
 # IntelImageClassification
 
-In this project 4 models were created which is able to classify between 6 classes present in the Intel Image Classification Dataset
+* Created a tool which is able to classify images between Buildings, Forests, Glaciers, Mountains, Sea and Street.
+* Dataset was taken from kaggle. 
+* Link for dataset: https://www.kaggle.com/puneet6060/intel-image-classification
+* Did a comparative analysis of performance of Inception-V3, ResNet-50, VGG-16, Xception and a Custom CNN on the dataset. 
+* Built an API on Flask using the best model and deployed it on a local server 
 
-The models used were InceptionV3, ResNet50, VGG19, Xception.
 
+## Code and Resources Used 
+**Python Version:** 3.7  
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle, tensorflow, keras
+
+## Overview
 The CNN base with imagenet weights were imported of each model and a stack of Fully Connected Layers were added to it. After that fine tuning was performed on each model.
 Each model was trained for 20 epochs.
 
@@ -27,10 +35,11 @@ The Training and Validation Accuracy of each model after 20 epochs is as follows
 
 | Model      | Training Accuracy | Validation Accuracy   |
 | :---        |    :----:   |          ---: |
-| InceptionV3      | 98.94      | 92.33   |
-| VGG19   | 17.93        | 17.50      |
+| InceptionV3      | 99.32%      | 91.87%   |
+| VGG16   | 90.24%        | 88.93%      |
 | Xception   | 98.41        | 92.27      |
 | ResNet50   | 97.86        | 92.63      |
+| Custom Model   | 86.9%        | 87.10%      |
 			
 
 The accuracy and loss visualizations are as follows:
