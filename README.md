@@ -37,8 +37,8 @@ The Training and Validation Accuracy of each model after 20 epochs is as follows
 | :---        |    :----:   |          ---: |
 | InceptionV3      | 99.32%      | 91.87%   |
 | VGG16   | 90.24%        | 88.93%      |
-| Xception   | 98.41        | 92.27      |
-| ResNet50   | 97.86        | 92.63      |
+| Xception   | 99.47        | 93.37%      |
+| ResNet50   | 99.48        | 92.80%      |
 | Custom Model   | 86.9%        | 87.10%      |
 			
 
@@ -46,25 +46,28 @@ The accuracy and loss visualizations are as follows:
 
 Training Accuracy
 
-![image](https://user-images.githubusercontent.com/56645508/112268510-18471d80-8c9d-11eb-982e-7d955cc9ac75.png)
+![image](https://user-images.githubusercontent.com/56645508/122374916-63ad5700-cf80-11eb-8e7c-d2ec05b298c6.png)
+
 
 Validation Accuracy
 
-![image](https://user-images.githubusercontent.com/56645508/112268625-44629e80-8c9d-11eb-8a24-480d7345ddd5.png)
+![image](https://user-images.githubusercontent.com/56645508/122374944-69a33800-cf80-11eb-9baa-aff43b7b06fe.png)
 
 
 Training Loss
 
-![image](https://user-images.githubusercontent.com/56645508/112268640-49bfe900-8c9d-11eb-9069-22f4afd44dd3.png)
+![image](https://user-images.githubusercontent.com/56645508/122374965-6f991900-cf80-11eb-9b07-95515658784e.png)
+
 
 
 Validation Loss
 
-![image](https://user-images.githubusercontent.com/56645508/112268655-4fb5ca00-8c9d-11eb-82bc-44a3e2f20dad.png)
+![image](https://user-images.githubusercontent.com/56645508/122374990-745dcd00-cf80-11eb-8804-34846f1460f8.png)
 
 
 
-After 20 Epochs ResNet50 had the highest validation accuracy, hence it was deployed using flask.
+
+After 20 Epochs Xception had the highest validation accuracy, hence it was deployed using flask.
 
 The Screenshot of the final model is as follows:
 
