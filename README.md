@@ -69,6 +69,10 @@ Validation Loss
 
 After 20 Epochs Xception had the highest validation accuracy, hence it was deployed using flask.
 
+Below is the google drive link of the trained xception model:
+
+https://drive.google.com/file/d/1ga55MugUzR2Wi5hBmqd0mg0h5yacMvsk/view?usp=sharing
+
 The Screenshot of the final model is as follows:
 
 ![image](https://user-images.githubusercontent.com/56645508/112270207-5cd3b880-8c9f-11eb-9d38-b131b2f846eb.png)
